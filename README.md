@@ -9,8 +9,8 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Sunil2587/Algorithm.git
-cd Algorithm
+git clone https://github.com/basavarshini2006-glitch/Algorithm-Implementation.git
+cd Algorithm-Implementation
 ```
 
 2. Setup backend:
