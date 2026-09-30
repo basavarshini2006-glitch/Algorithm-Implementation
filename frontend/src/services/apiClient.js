@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Normalize Vite environment variable; ensure a full origin and append /api
-const rawBase = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const rawBase = import.meta.env.VITE_API_URL || 'https://algovision-backend-5xoh.onrender.com';
 const normalizedBase = rawBase.replace(/\/+$/g, ''); // trim trailing slashes
 const API_BASE_URL = normalizedBase.endsWith('/api') ? normalizedBase : `${normalizedBase}/api`;
 
